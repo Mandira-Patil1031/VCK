@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 162, 255);
+    
+    
+    
+}
+
+h3 {
+    text-align: center;
+
+}
+button{
+
+    
+  padding: 10px 20px;
+  background-color: rgb(141, 255, 47);
+  border-bottom: 2cm;
+  text-align: center;
+  align-items: center;
+
+}
+
+p{
+    
+font: 1em sans-serif;font-family: Arial;
+}
+
+h3{
+    font-family: Arial;
+
+}
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: beige;
+
+  
+    }
+    img{
+      align-content: center;
+    }
+
+
