@@ -5,8 +5,11 @@ import { Link } from "react-router-dom";
 const CoursesPage = () =>{
     return(
         <div>
-            <Header/>
-            <h1>Our Academic Programs</h1>
+            <p className="header1">
+            <Header/></p>
+            <div className="page-container">
+            <h1 style={{ color:"blue"}} className="heading">Our Academic Programs</h1>
+
              <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
             <h2>Discover Campus Life</h2>
             <video src="\videos\campus1" height="400"  width="600"controls />
@@ -15,7 +18,7 @@ const CoursesPage = () =>{
             
             
             <h2>Undergraduate Programs (UG)</h2><hr />
-            <ul>
+            <ul className="styled-list">
                 <li>**Bachelor of Science (B.Sc.)**</li>
                 <li>Computer Science (3 years)</li>
                 <li>Information Technology (3 years)</li>
@@ -28,7 +31,7 @@ const CoursesPage = () =>{
                 <li>Psychology (3 years)</li>
             </ul>
                 <h2>Postgraduate Programs (PG)</h2><hr />
-            <ul>
+            <ul className="styled-list">
                 <li>**Master of Science (M.Sc.)**</li>
                <li>Computer Science (2 years)</li>
                <li> Information Technology (2 years)</li>
@@ -43,7 +46,7 @@ const CoursesPage = () =>{
 
                  <Link to="/contact" className='button'>Inquire About Courses</Link>
                 
-          
+          </div>
 
         </div>
     )

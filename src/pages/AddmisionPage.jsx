@@ -3,7 +3,9 @@ import Header from '../components/Header/Header';
 const AddmisionPage = () =>{
  return(
         <div>
-            <Header/>
+            <p className="header1">
+            <Header/></p>
+            <div clssName="page-container">
             <h1>Admissions at Vivekanand College</h1>
             <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community.<br></br> Our admission process is designed to be straightforward and accessible.</p>
 
@@ -11,7 +13,7 @@ const AddmisionPage = () =>{
                <p> Please review the eligibility criteria and key dates below for the upcoming academic year. For any queries, feel free to contact our admissions office.</p>
 
             <h2>Eligibility Criteria for Undergraduate Programs</h2>
-            <table>
+            <table className="styled-table">
                 <tr>
                     <th>Program</th>
                     <th>Minimum Qualification</th>
@@ -39,16 +41,17 @@ const AddmisionPage = () =>{
 
             </table>
                 <h2>Application Process</h2>
-            <ol>
+            <ol className="styled-list">
                 <li>Online Application: Fill out the application form available on our portal.</li>
                 <li>Document Submission: Upload scanned copies of required documents (mark sheets, ID proof, etc.).</li>
                 <li>Entrance Exam (if applicable):Appear for the college's entrance examination.</li>
                 <li>Merit List & Interview: Check the merit list and attend the interview if shortlisted.</li>
                 <li>Fee Payment: Complete the admission by paying the required fees.</li>
             </ol>
+            <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our Courses page or Contact us directly.</p>
 
         </div>
-
+     </div>
 
 
 
