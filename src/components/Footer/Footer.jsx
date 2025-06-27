@@ -1,10 +1,13 @@
 import './Footer.css'
 const Footer = () =>{
  return(
-      <div>
+      <footer className="footer">
+          <p>&copy;{new Date().getFullYear()}Vivekanand College. All right reserved</p>
+
+      </footer>
           
 
-      </div>
+      
  )  
 
 }
