@@ -10,7 +10,7 @@ const CoursesPage = () => {
       </p>
       
       <h2>Discover Campus Life</h2><hr/>
-      <video src="\videos\campus1"  width="840px" height="360px" controls/>
+      <video src="\videos\campus1.mp4"  width="840px" height="360px" controls/>
     
         
         <p className="video-caption">

@@ -2,12 +2,12 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #F4F7F6;
+  background-color:rgb(0, 204, 255);
   
 }
 
 .content {
-  background-color: #52d2d2;
+  background-color: #52aad2;
   flex-grow: 1;
   display: flex;
   justify-content: center;

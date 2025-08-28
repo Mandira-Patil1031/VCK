@@ -6,7 +6,7 @@ const HomePage = () => {
       
       <div className="hero-section">
         <img
-          src="\public\images\title"
+          src="\images\title.png"
           alt="Vivekanand College Campus"
           className="hero-banner-image"
         />
@@ -57,9 +57,9 @@ const HomePage = () => {
       <h2>Campus Life & Facilities</h2>
       <div className="image-gallery">
         <img
-          src="\public\images\vck"
+          src="\images\vck.png"
           />
-        <img src="\public\images\vck1"/>
+        <img src="\images\vck1.png"/>
       </div>
       <p>
         Explore our vibrant campus and state-of-the-art facilities designed to
